@@ -1,0 +1,784 @@
+/*
+Theme Name: AudiR8 Magazine
+Theme URI: http://test.qualitywordpress.com/?preview_theme=audir8-mag
+Description: AudiR8 magazine is an automobile wordpress theme design with a sleek R8 model car. 
+Version: 1.0
+Author: qualitywordpress
+Author URI: http://qualitywordpress.com
+*/
+
+
+
+/* General */
+
+body {
+	margin: 0;
+	background: url("images/bg.jpg");
+}
+
+h1, h2, h3, h4 {
+	margin: 0;
+}
+
+img {
+	border: 0;
+}
+
+.clear {
+	clear: both;
+	height: 0;
+	overflow: hidden;
+}
+
+
+/* Page */
+
+#page {
+	margin: 0px auto 0 auto;
+	width: 995px;
+	background: url("images/page.gif") repeat-y;
+}
+
+#page-top {
+	width: 995px;
+	background: url("images/page_top.jpg") no-repeat;
+}
+
+#page-bottom {
+	width: 995px;
+	min-height: 1px;
+	background: url("images/page_bottom.gif") no-repeat left bottom;
+}
+
+
+/* Header */
+
+#header {
+	width: 890px;
+	height: 310px;
+	position: relative;
+}
+
+	/* Header - Info */
+	
+	#header #header-info {
+		position: absolute;
+		top: 65px;
+		left: 600px;
+		width: 355px;
+		height: 81px;
+		padding-left: 92px;
+		background: url("images/logo.gif") no-repeat;
+	}
+	
+	#header #header-info h1 {
+		color: #9D4E4E;
+		font: normal 26px "Century Gothic", Century Gothic;
+		padding: 1px 0 5px 0;
+	}
+	
+	#header #header-info h1 a {
+		color: #9D4E4E;
+		text-decoration: none;
+	}
+	
+	#header #header-info .description {
+		color: #ffffff;
+		font: normal 12px "Century Gothic", Century Gothic;
+	}
+	
+	/* Header - Menu */
+	
+	#header #header-menu {
+		position: absolute;
+		top: 0px;
+		left: 50px;
+		width: 540px;
+		height: 46px;
+	}
+	
+	#header #header-menu ul {
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+		width: 640px;
+		height: 46px;
+	}
+	
+	#header #header-menu ul li {
+		float: left;
+		height: 46px;
+		font: normal 12px/46px "Century Gothic", Century Gothic;
+		color: #B2B8C2;
+	}
+	
+	#header #header-menu ul li a {
+		color: #B2B8C2;
+		text-decoration: none;
+		padding: 0 15px;
+		display: block;
+	}
+	
+	#header #header-menu ul li a:hover {
+		background: url("images/header_menu.gif") repeat-x;
+	}
+	
+	#header #header-menu ul li ul {
+		display: none;
+	}
+	
+	#header #header-menu ul li.current_page_item a {
+		background: url("images/header_menu.gif") repeat-x;
+	}
+	
+	/* Header - Search */
+	
+	#header #header-search {
+		position: absolute;
+		top: 255px;
+		left: 725px;
+		width: 217px;
+		height: 22px;
+	}
+	
+	#header #header-search #searchform {
+		margin: 0;
+		padding: 0;
+		width: 217px;
+		height: 22px;
+	}
+	
+	#header #header-search #s {
+		width: 117px;
+		height: 18px;
+		padding: 2px 5px;
+		border: 0;
+		font: normal 13px "Century Gothic", Century Gothic;
+		color: #000000;
+		background: transparent;
+		float: left;
+	}
+	
+	#header #header-search #searchsubmit {
+		background: transparent;
+		border: none;
+		width: 85px;
+		height: 22px;
+		padding: 0;
+		float: right;
+	}
+	
+	/* Header - Newsletter */
+	
+	#header #header-newsletter {
+		position: absolute;
+		top: 230px;
+		left: 32px;
+		width: 200px;
+		height: 90px;
+		padding-top: 40px;
+		background: url("images/header_newsletter.gif") no-repeat;
+		color: #FFFFFF;
+		font: bold 12px "Century Gothic", Century Gothic;
+	}
+	
+	#header #header-newsletter p {
+		margin: 0;
+		padding-bottom: 7px;
+	}
+	
+	#header #header-newsletter form {
+		margin: 0;
+		padding: 0;
+	}
+	
+	#header #header-newsletter span {
+		width: 55px;
+		float: left;
+		height: 18px;
+		line-height: 18px;
+	}
+	
+	#header #header-newsletter input {
+		width: 123px;
+		height: 18px;
+		background: url("images/header_input.gif") no-repeat;
+		border: none;
+		padding: 0 5px;
+		font: normal 12px "Century Gothic", Century Gothic;
+		color: #FFFFFF;
+	}
+	
+	#header #header-newsletter .submit {
+		width: 85px;
+		height: 26px;
+		background: url("images/header_button.gif") no-repeat;
+		margin-left: 104px;
+	}
+	
+	/* Header - Recent Articles */
+	
+	#header #recent-articles {
+		position: absolute;
+		top: 223px;
+		left: 264px;
+		width: 305px;
+		height: 145px;
+	}
+	
+	#header #recent-articles h3 {
+		width: 285px;
+		height: 22px;
+		color: #FFFFFF;
+		font: bold 12px/22px "Century Gothic", Century Gothic;
+		background: url("images/title_recent_articles.gif") no-repeat;
+		padding: 0 10px;
+	}
+	
+	#header #recent-articles ul {
+		margin: 0;
+		padding: 0 0 0 10px;
+		list-style-type: none;
+	}
+	
+	#header #recent-articles ul li {
+		padding-left: 8px;
+		background: url("images/header_articles.gif") no-repeat;
+		color: #FFFFFF;
+		font: bold 12px/28px "Century Gothic", Century Gothic;
+	}
+	
+	#header #recent-articles ul li a {
+		color: #FFFFFF;
+		text-decoration: none;
+	}
+	
+	#header #recent-articles ul li a:hover {
+		text-decoration: underline;
+	}
+	
+	/* Header - Popular Articles */
+	
+	#header #popular-articles {
+		position: absolute;
+		top: 223px;
+		left: 595px;
+		width: 278px;
+		height: 145px;
+	}
+	
+	#header #popular-articles h3 {
+		width: 258px;
+		height: 22px;
+		color: #FFFFFF;
+		font: bold 12px/22px "Century Gothic", Century Gothic;
+		background: url("images/title_popular_articles.gif") no-repeat;
+		padding: 0 10px;
+	}
+	
+	#header #popular-articles ul {
+		margin: 0;
+		padding: 0 0 0 10px;
+		list-style-type: none;
+	}
+	
+	#header #popular-articles ul li {
+		padding-left: 8px;
+		background: url("images/header_articles.gif") no-repeat;
+		color: #FFFFFF;
+		font: bold 12px/28px "Century Gothic", Century Gothic;
+	}
+	
+	#header #popular-articles ul li a {
+		color: #FFFFFF;
+		text-decoration: none;
+	}
+	
+	#header #popular-articles ul li a:hover {
+		text-decoration: underline;
+	}
+
+/* Header - Feed */
+	
+	#header #header-feed {
+		position: absolute;
+		top: 20px;
+		left: 180px;
+		width: 30px;
+		height: 30px;
+	}
+
+/* Header - Feed1 */
+	
+	#header #header-feed1 {
+		position: absolute;
+		top: 210px;
+		left: 750px;
+		width: 30px;
+		height: 30px;
+	}
+
+/* Header - Feed2 */
+	
+	#header #header-feed2 {
+		position: absolute;
+		top: 20px;
+		left: 20px;
+		width: 30px;
+		height: 30px;
+	}
+
+/* Header - Feed3 */
+	
+	#header #header-feed3 {
+		position: absolute;
+		top: 20px;
+		left: 100px;
+		width: 30px;
+		height: 30px;
+	}
+
+/* Header - Feed4 */
+	
+	#header #header-feed4 {
+		position: absolute;
+		top: 20px;
+		left: 260px;
+		width: 30px;
+		height: 30px;
+	}
+
+
+
+/* Main */
+
+#main {
+	margin: 0 auto;
+	width: 869px;
+}
+
+	/* Main - Content */
+	
+	#content {
+		float: left;
+		width: 521px;
+		padding: 10px 17px 0 16px;
+	}
+	
+	/* Main - Content - Post */
+	
+	#content .post {
+		float: left;
+		margin-bottom: 30px;
+		width: 521px;
+	}
+	
+		/* Post - Title */
+		
+		#content .post .post-title {
+			width: 521px;
+			height: 59px;
+			font: normal 12px "Century Gothic", Century Gothic;
+			color: #FFFFFF;
+		}
+		
+		#content .post .post-title a {
+			color: #FFFFFF;
+			text-decoration: none;
+		}
+		
+		#content .post .post-title a:hover {
+			text-decoration: underline;
+		}
+		
+		#content .post .post-title h2 {
+			color: #930000;
+			font: normal 22px "Century Gothic", Century Gothic;
+			padding: 2px 0;
+		}
+		
+		#content .post .post-title h2 a {
+			color: #930000;
+			text-decoration: none;
+		}
+		
+		#content .post .post-title h2 a:hover {
+			text-decoration: underline;
+		}
+		
+		#content .post .post-title .post-date {
+			float: left;
+			background: url("images/post_date.gif") no-repeat;
+			width: 59px;
+			height: 52px;
+			margin-right: 18px;
+			color: #FFFFFF;
+			text-align: center;
+			text-transform: lowercase;
+			font: bold 9px "Century Gothic", Century Gothic;
+			letter-spacing: 1px;
+		}
+		
+		#content .post .post-title .post-date span {
+			padding: 9px 0 1px 0;
+			display: block;
+		}
+		
+		/* Post - Entry */
+		
+		#content .post .post-entry {
+			font: normal 12px/18px "Century Gothic", Century Gothic;
+			color: #FFFFFF;
+			width: 491px;
+			padding: 0 10px;
+		}
+		
+		#content .post .post-entry a {
+			color: #FFFFFF;
+			text-decoration: none;
+		}
+		
+		#content .post .post-entry a:hover {
+			text-decoration: underline;
+		}
+		
+		#content .post .post-entry a.more-link {
+			font: bold 12px/18px "Century Gothic", Century Gothic;
+			color: #FFFFFF;
+			text-decoration: none;
+		}
+		
+		#content .post .post-entry a.more-link:hover {
+			text-decoration: underline;
+		}
+		
+		#content .post .post-entry blockquote {
+			border-left: 10px solid #e6e6e6;
+			margin: 0px 30px;
+			padding-left: 15px;
+		}
+		
+		/* Post - Info */
+		
+		#content .post .post-info {
+			padding: 0 15px;
+			width: 511px;
+			height: 26px;
+			background: url("images/post_info.gif") no-repeat;
+			clear: both;
+			font: normal 12px/26px "Century Gothic", Century Gothic;
+			color: #ffffff;
+		}
+		
+		#content .post .post-info a {
+			color: #ffffff;
+			text-decoration: none;
+		}
+		
+		#content .post .post-info a:hover {
+			text-decoration: underline;
+		}
+		
+		/* Post - Comments */
+		
+		#content .post h3 {
+			margin: 30px 0 5px 0;
+			color: #713C7A;
+			font: bold 18px "Century Gothic", Century Gothic;
+		}
+		
+		#content .post .comments {
+			font: normal 12px/18px "Century Gothic", Century Gothic;
+			color: #713C7A;
+			width: 521px;
+		}
+		
+		#content .post .comments ol {
+			margin: 10px 0;
+			padding-left: 25px;
+		}
+		
+		#content .post .comments ol li {
+			padding: 5px;
+		}
+		
+		#content .post .comments ol li a {
+			color: #FFFFFF;
+			text-decoration: none;
+		}
+		
+		#content .post .comments ol li a:hover {
+			text-decoration: underline;
+		}
+		
+		#content .post .comments ol li.alt {
+			background: #e6e6e6;
+		}
+		
+		#content .post .comments ol li cite {
+			color: #FFFFFF;
+			font-style: normal;
+			font-weight: bold;
+		}
+		
+		#content .post .comments ol li cite a {
+			color: #FFFFFF;
+			text-decoration: none;
+		}
+		
+		#content .post .comments ol li cite a:hover {
+			text-decoration: underline;
+		}
+		
+		#content .post .comments ol li .commentmetadata a {
+			color: #FFFFFF;
+			text-decoration: none;
+		}
+		
+		#content .post .comments ol li .commentmetadata a:hover {
+			text-decoration: underline;
+		}
+		
+		#content .post #commentform {
+			margin: 0;
+			padding-left: 25px;
+			font: normal 12px/18px "Century Gothic", Century Gothic;
+			color: #FFFFFF;
+			width: 496px;
+		}
+		
+		#content .post #commentform a {
+			color: #FFFFFF;
+			text-decoration: none;
+		}
+		
+		#content .post #commentform a:hover {
+			text-decoration: underline;
+		}
+	
+	/* Main - Content - Navigation */
+	
+	#content .navigation {
+		margin-bottom: 30px;
+		font: bold 12px "Century Gothic", Century Gothic;
+		color: #FFFFFF;
+		width: 541px;
+	}
+	
+	#content .navigation a {
+		color: #FFFFFF;
+		text-decoration: none;
+	}
+	
+	#content .navigation a:hover {
+		text-decoration: underline;
+	}
+	
+		#content .navigation .navigation-previous {
+			float: left;
+		}
+		
+		#content .navigation .navigation-next {
+			float: right;
+		}
+	
+	/* Main - Sidebar */
+	
+	#sidebar {
+		float: left;
+		width: 295px;
+		font: normal 14px/18px "Century Gothic", Century Gothic;
+		color: #FFFFFF;
+	}
+	
+	#sidebar a {
+		color: #FFFFFF;
+		text-decoration: none;
+	}
+	
+	#sidebar a:hover {
+		text-decoration: underline;
+	}
+	
+	#sidebar .sidebar-box {
+		width: 295px;
+		padding-bottom: 10px;
+	}
+	
+		/* Sidebar - Titles */
+		
+		#sidebar h3 {
+			font: normal 12px/35px "Century Gothic", Century Gothic;
+			color: #ffffff;
+			width: 265px;
+			height: 35px;
+			padding: 0 17px;
+			margin-bottom: 2px;
+			background: url("images/sidebar_title.gif") no-repeat;
+		}
+		
+		/* Sidebar - Menus */
+		
+		#sidebar ul {
+			margin: 0;
+			padding: 0 0 0 15px;
+			list-style-type: none;
+		}
+		
+		#sidebar ul li {
+			padding-left: 8px;
+			background: url("images/sidebar_menu.gif") no-repeat;
+			font: normal 12px/22px "Century Gothic", Century Gothic;
+			color: #E5E5E5;
+		}
+		
+		#sidebar ul li a {
+			color: #E5E5E5;
+			text-decoration: none;
+		}
+		
+		#sidebar ul li a:hover {
+			text-decoration: underline;
+		}
+		
+		#sidebar ul li ul {
+			padding: 0 0 0 10px;
+		}
+		
+		/* Sidebar - Forms */
+		
+		#sidebar #searchform {
+			margin: 0;
+			padding: 10px 0;
+			width: 295px;
+			text-align: center;
+		}
+		
+		#sidebar #searchform #s {
+			width: 205px;
+		}
+		
+		/* Sidebar - Tables */
+		
+		#sidebar #calendar_wrap {
+			margin: 0 auto;
+			padding-top: 5px;
+			width: 116px;
+		}
+		
+		#sidebar #calendar_wrap caption {
+			font-weight: bold;
+		}
+		
+		#sidebar #calendar_wrap tbody {
+			text-align: right;
+		}
+		
+		#sidebar #calendar_wrap tfoot #next {
+			text-align: right;
+		}
+		
+		#sidebar #calendar_wrap #today {
+			font-weight: bold;
+		}
+		
+		/* Sidebar - Texts */
+		
+		#sidebar .textwidget {
+			padding: 0 5px;
+		}
+		
+		/* Sidebar - Ads */
+		
+		#sidebar .sidebar-ads {
+			padding: 10px 0 0 15px;
+		}
+		
+		#sidebar .sidebar-ads-in {
+			float: left;
+			padding: 0 14px 14px 0;
+		}
+
+
+/* Footer */
+
+#footer {
+	margin: 0 auto;
+	width: 869px;
+	height: 70px;
+	color: #000000;
+	font: normal 12px "Century Gothic", Century Gothic;
+}
+
+#footer a {
+	color: #000000;
+	text-decoration: underline;
+}
+
+#footer a:hover {
+	text-decoration: none;
+}
+
+	/* Footer - Footerbar */
+	
+	#footer #footerbar {
+		width: 869px;
+		height: 80px;
+		padding-top: 15px;
+	}
+	
+	#footer #footerbar h3 {
+		font: normal 12px "Century Gothic", Century Gothic;
+		color: #000000;
+		padding: 0 0 25px 10px;
+	}
+	
+	#footer #footerbar ul {
+		margin: 0;
+		padding: 0 0 0 15px;
+		list-style-type: none;
+	}
+	
+	#footer #footerbar ul li {
+		font: normal 12px/26px "Century Gothic", Century Gothic;
+		color: #000000;
+		padding-left: 8px;
+		background: url("images/footer_menu.gif") no-repeat;
+	}
+	
+	#footer #footerbar ul li a {
+		color: #000000;
+		text-decoration: none;
+	}
+	
+	#footer #footerbar ul li a:hover {
+		text-decoration: underline;
+	}
+	
+		/* Footer - Footerbar - Boxes */
+		
+		#footer #footerbar #footerbar-left {
+			width: 249px;
+			padding: 0 17px 0 10px;
+			float: left;
+		}
+		
+		#footer #footerbar #footerbar-center {
+			width: 273px;
+			padding: 0 14px 0 11px;
+			float: left;
+		}
+		
+		#footer #footerbar #footerbar-right {
+			width: 264px;
+			padding: 0 14px 0 16px;
+			float: left;
+		}
+	
+	/* Footer - Copyright */
+	
+	#footer #copyright {
+		width: 869px;
+		text-align: center;
+		line-height: 30px;
+	}

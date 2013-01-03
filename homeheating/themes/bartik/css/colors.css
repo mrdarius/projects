@@ -1,0 +1,54 @@
+
+/* ---------- Color Module Styles ----------- */
+
+body,
+body.overlay {
+  color: #3b3b3b;
+}
+.comment .comment-arrow {
+  border-color: #ffffff;
+}
+#page,
+#main-wrapper {
+  background: #f8f8f8;
+}
+.tabs ul.primary li a.active {
+  background-color: #ffffff;
+}
+.tabs ul.primary li.active a {
+  background-color: #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+.not-front #header{
+	padding-bottom: 100px;
+}
+#header {
+  background-image: url(http://www.englishwoodfuels.co.uk/images/page-bg.jpg);
+  float: left;
+  width: 100%;
+}
+a {
+  color: #F66E33;
+}
+a:hover,
+a:focus {
+  color: #F66E33;
+}
+a:active {
+  color: #23aeff;
+}
+.sidebar .block {
+  
+}
+#page-wrapper,
+#footer-wrapper {
+  
+}
+.region-header,
+.region-header a,
+.region-header li a.active,
+#name-and-slogan,
+#name-and-slogan a,
+#secondary-menu-links li a {
+  color: #fffeff;
+}
